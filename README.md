@@ -1,1 +1,12 @@
 # cross-validation-x-naive-bayes-diabetic-classification
+
+ABOUT
+
+The project aims to complete my thesis in 2020. This thesis is a continuation of my lecturer's project researching MAGE (mean amplitude glycemic excursion) as an indicator of someone having diabetes in their body.
+
+Acute Glucose Fluctuation and Chronic Hyperglycemia are the two main factors that triggering complications in Diabetes Mellitus. In this regard, quantitative consideration of glycemic variability in monitoring blood sugar in diabetes is essential for diagnosis and subsequent clinical treatment. The mean amplitude of glycemic excursions (MAGE) is an important indicator in the assessment of glycemic variability (GV), which is used as a reference to control glucose in blood continuously. Continuous blood glucose intake has technical difficulties, especially in the provision of equipment. Therefore, to calculate the MAGE value based on observations of discrete blood glucose that have been interpolated so that the fluctuation curve resembles the curve in the CGM model of 42 volunteer patients in the previous study, the RMSE value generated from the interpolation is 57.66 using the Spline Linear interpolation method and an accuracy of 92.85% with deep learning K-NN algorithms. This study focuses more on strengthening the training and testing data processing system and reducing the independent variables that occur during the classification process to obtain higher accuracy results which will later assist in diabetes decision makers. To support this goal, this study uses Cross Validation as a training and testing data processing with a number of K-Folds of 10 and Naïve Bayes as a classification method. The resulting accuracy is 93% with an RMSE value of 0.267. It concludes that patients in the pre-diabetes and diabetes classes tended to have more variable blood glucose values than patients from the normal class.
+
+THE METHOD
+
+In this Naïve Bayes implementation using the python language. In the application of the python language, this research uses Google Colab. The coding of the Naïve Bayes implementation to process the dataset. Includes libraries used in python to call required functions such as plot functions, accuracy measurements, confusion matrix, Naïve Bayes, Cross-Validation, and file uploads. The uploaded data will appear as follows.
+![image](https://user-images.githubusercontent.com/100661486/156498089-00e49b7a-9b12-4e47-9c4e-4ee56491ac15.png)
